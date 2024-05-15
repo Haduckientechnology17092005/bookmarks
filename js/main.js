@@ -43,7 +43,8 @@ function saveBookmark(e) {
 
     // Fetch and display bookmarks
     fetchBookmarks();
-
+    //Clear form
+    document.getElementById('myForm').reset();
     // Prevent form from submitting
     e.preventDefault();
 }
